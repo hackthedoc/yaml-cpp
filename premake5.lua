@@ -13,7 +13,7 @@ project "yaml-cpp"
     }
 
     includedirs {
-        "%{wks.location}/Core/vendor/yaml-cpp/include"
+        "%{prj.location}/include"
     }
 
     defines { "YAML_CPP_STATIC_DEFINE" }
